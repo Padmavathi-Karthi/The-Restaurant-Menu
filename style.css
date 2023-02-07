@@ -104,3 +104,99 @@ img {
     /* display: ; */
     animation: fadeIn 2s;
 }
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.food-img img {
+    border-radius: 4px;
+}
+
+.food-content {
+    padding: 1rem;
+}
+
+.food-name {
+    font-family: 'Crimson Pro', serif;
+    color: #ff9505;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #ff9505;
+}
+
+.food-price {
+    padding: 0.4rem 0;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.rating {
+    display: flex;
+    list-style: none;
+}
+
+.rating .fa-star {
+    margin-right: 0.4rem;
+    color: #443556;
+}
+
+.category {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Secular One', sans-serif;
+}
+
+.category span {
+    font-weight: 500;
+}
+
+
+@media screen and (min-width:600px) {
+    .food-item {
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        padding: 1rem;
+        column-gap: 1rem;
+    }
+
+    .food-content {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .menu-head p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .menu-head p {
+        width: 50%;
+    }
+
+    .food-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
