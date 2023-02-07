@@ -34,3 +34,13 @@ img {
 .menu-head {
     text-align: center;
 }
+
+.menu-head h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.6rem;
+}
+
+.menu-head p {
+    font-weight: 300;
+    padding: 1.8rem 0;
+}
