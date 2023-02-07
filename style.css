@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&family=Dancing+Script&family=Noto+Serif&family=Secular+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Crimson Pro', serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Noto Serif', serif;
+    /* font-family: 'Secular One', sans-serif; */
+    line-height: 1.5;
+    background-color: #443556;
+    color: whitesmoke;
+}
+
+.menu {
+    margin: 2rem 0;
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.menu-head {
+    text-align: center;
+}
