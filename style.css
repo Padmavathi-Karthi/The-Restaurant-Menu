@@ -90,3 +90,17 @@ img {
     color: rgb(232, 235, 238);
 }
 
+.food-items {
+    margin: 2rem 0;
+}
+
+.food-item {
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    color: black;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75);
+    /* display: ; */
+    animation: fadeIn 2s;
+}
